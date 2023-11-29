@@ -9,7 +9,7 @@ def argparser():
     # parser.add_argument('--epochs', default=10, help='number of epochs', type=int)
     # parser.add_argument('--print_step', default=1000, help='step size for print log', type=int)
     parser.add_argument('--epochs', default=5, help='number of epochs', type=int)
-    parser.add_argument('--print_step', default=500, help='step size for print log', type=int)
+    parser.add_argument('--print_step', default=1000, help='step size for print log', type=int)
 
     parser.add_argument('--dataset_dir', default='/Users/hehongbo/PythonSpace/DIEN-tf2/data/amazon/np_prepro/', help='dataset path')
     parser.add_argument('--model_path', default='./models/', help='model load path', type=str)
